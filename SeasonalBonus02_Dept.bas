@@ -58,7 +58,7 @@ Sub SeasonalBonus02_Dept()
                     End With
                 End With
                 
-                '這邊不WORK再想想
+                'rethink this paragraph
                 Sheets(b).Select
                 Rows("25:25").Select
                 Range(Selection, Selection.End(xlDown)).Select
