@@ -1,1 +1,11 @@
-using VBA to automatically split seasonal bonus files and create folders
+#This VBA (Visual Basic for Applications) code is performing the following tasks:
+
+##1. Getting the current username of the computer user.
+##2. Creating a folder named "季獎金切檔" (Seasonal Bonus Cut Files) on the desktop (if it doesn't already exist).
+##3. Prompting the user to input information about the year and season, for example, "2020Q4".
+##4. Opening an Excel file named "Year季獎金調整清冊" (Year Seasonal Bonus Adjustment List).
+##5. Iterating through the data in the Excel file and creating a folder structure based on certain conditions:
+##6. If the value in column "A" of a row is different from the previous row, a folder with the name "Year季獎金-value" is created.
+##7. If the value in column "B" of a row is different from the value in column "A", a folder with the name "Year季獎金-value-value" is created.
+##8. If the value in column "C" of a row is not zero, a folder with the name "Year季獎金調整清冊-value" is created.
+This code automates the process of creating folders dynamically based on the data in the Excel sheet, allowing for the organized storage of related files.
