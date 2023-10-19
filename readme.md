@@ -1,5 +1,3 @@
-This VBA (Visual Basic for Applications) code is performing the following tasks:
-
 1. Getting the current username of the computer user.
 2. Creating a folder named "季獎金切檔" (Seasonal Bonus Cut Files) on the desktop (if it doesn't already exist).
 3. Prompting the user to input information about the year and season, for example, "2020Q4".
