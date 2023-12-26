@@ -7,6 +7,7 @@ This program, according to practical needs, is split into five files based on fu
   - User Input the Bonus Year & Season (e.g., 2020Q4)
   - Opening Workbook and Looping through Data
   - Creating Folders  
+  
     - Logic: 
         - Depending on the values in column A and B, it creates specific folder structures on the Desktop.
         - func2_folder is created based on the values in column A.
